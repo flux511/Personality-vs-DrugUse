@@ -52,3 +52,8 @@ python predict.py models/linear_regression_model.sav data/X_test.csv data/y_test
 ## Limitations
 
 development libraries are part of the production environment, normally these would be separate as the production code should be as slim as possible
+
+## Contents
+
+1. The [Clean Data](clean_data.ipynb) notebook imports the original data and exports a clean version of it 
+2. The [Modeling](modeling.ipynb) notebook contains the code for evaluation different models and tuning the best performing one
